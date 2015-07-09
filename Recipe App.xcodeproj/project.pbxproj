@@ -22,7 +22,7 @@
 		922C503A1B4DB49B0071B9B0 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922C50391B4DB49B0071B9B0 /* RecipeViewController.m */; };
 		922C503D1B4DB5480071B9B0 /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 922C503C1B4DB5480071B9B0 /* RARecipes.m */; };
 		922C50401B4DB90D0071B9B0 /* RecipesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 922C503F1B4DB90D0071B9B0 /* RecipesTableViewDataSource.m */; };
-		922C50431B4DC84D0071B9B0 /* RATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 922C50421B4DC84D0071B9B0 /* RATableViewCell.m */; };
+		924536991B4EF8F30062ED01 /* RecipesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924536981B4EF8F30062ED01 /* RecipesDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		922C503C1B4DB5480071B9B0 /* RARecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipes.m; sourceTree = "<group>"; };
 		922C503E1B4DB90D0071B9B0 /* RecipesTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewDataSource.h; sourceTree = "<group>"; };
 		922C503F1B4DB90D0071B9B0 /* RecipesTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewDataSource.m; sourceTree = "<group>"; };
-		922C50411B4DC84D0071B9B0 /* RATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableViewCell.h; sourceTree = "<group>"; };
-		922C50421B4DC84D0071B9B0 /* RATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableViewCell.m; sourceTree = "<group>"; };
+		924536971B4EF8F30062ED01 /* RecipesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesDetailViewController.h; sourceTree = "<group>"; };
+		924536981B4EF8F30062ED01 /* RecipesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 				922C503C1B4DB5480071B9B0 /* RARecipes.m */,
 				922C503E1B4DB90D0071B9B0 /* RecipesTableViewDataSource.h */,
 				922C503F1B4DB90D0071B9B0 /* RecipesTableViewDataSource.m */,
-				922C50411B4DC84D0071B9B0 /* RATableViewCell.h */,
-				922C50421B4DC84D0071B9B0 /* RATableViewCell.m */,
+				924536971B4EF8F30062ED01 /* RecipesDetailViewController.h */,
+				924536981B4EF8F30062ED01 /* RecipesDetailViewController.m */,
 				71F67B62192C8D6A00E609F1 /* Images.xcassets */,
 				71F67B57192C8D6A00E609F1 /* Supporting Files */,
 			);
@@ -264,7 +264,7 @@
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
 				922C50401B4DB90D0071B9B0 /* RecipesTableViewDataSource.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
-				922C50431B4DC84D0071B9B0 /* RATableViewCell.m in Sources */,
+				924536991B4EF8F30062ED01 /* RecipesDetailViewController.m in Sources */,
 				922C503A1B4DB49B0071B9B0 /* RecipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -27,8 +27,10 @@ static NSString *cellID = @"cellID";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
-    cell = [tableView deque];
+    
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    cell = [cell initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
     
     cell.textLabel.text = [RARecipes titleAtIndex:indexPath.row];
     cell.detailTextLabel.text = [RARecipes descriptionAtIndex:indexPath.row];

@@ -10,6 +10,7 @@
 
 @interface RATableViewCell : UITableViewCell
 
-- (RATableViewCell *)newCell;
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
 
 @end

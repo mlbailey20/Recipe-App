@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "RARecipes.h"
+#import "RATableViewCell.h"
 
 @interface RecipesTableViewDataSource : NSObject <UITableViewDataSource>
 
